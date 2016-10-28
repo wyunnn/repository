@@ -1,7 +1,6 @@
 package package1;
 
 public class Sol100 {
-	
 	/**
 	 * Definition for a binary tree node.
 	 * public class TreeNode {
@@ -33,6 +32,4 @@ public class Sol100 {
 	        else
 	            return true;
 	    }
-
-
 }
