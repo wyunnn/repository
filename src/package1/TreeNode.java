@@ -21,8 +21,6 @@ public class TreeNode {
       if(hasRightTree(root)){
           s+=sumOfLeftLeaves(root.right);
       }
-      
-      
       return s;
   }
   
