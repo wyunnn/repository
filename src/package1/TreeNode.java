@@ -32,6 +32,7 @@ public class TreeNode {
           return false;
       
   }
+  
   boolean hasRightTree(TreeNode node){
       if (node !=null && node.right !=null){
            if (node.right.left!=null || node.right.right != null){
@@ -40,6 +41,7 @@ public class TreeNode {
       }
       return false;
   }
+  
   boolean hasLeftTree(TreeNode node){
       if(node == null){
           return false;
@@ -51,6 +53,7 @@ public class TreeNode {
       }
       return false;
   }
+  
   public static void main(String[] args){
   	 TreeNode a = new TreeNode(3); 
   	 a.left=new TreeNode(9);
