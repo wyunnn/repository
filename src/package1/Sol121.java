@@ -9,6 +9,7 @@ public class Sol121 {
         
         for(int i = 1; i < prices.length; i++){
             int current = prices [i];
+            
             if(current < buy){
                 buy = current;
             }
