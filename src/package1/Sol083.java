@@ -8,7 +8,7 @@ package package1;
  *     ListNode(int x) { val = x; }
  * }
  */
-public class Sol83 {
+public class Sol083 {
     public ListNode deleteDuplicates(ListNode head) {
         ListNode pointer = head;
         

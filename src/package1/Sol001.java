@@ -1,6 +1,6 @@
 package package1;
 
-public class Sol1 {
+public class Sol001 {
     public int[] twoSum(int[] nums, int target) {
         int[] ans = new int[2];
 
