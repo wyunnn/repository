@@ -20,7 +20,6 @@ public class Sol83 {
             }
             pointer = pointer.next;
         }
-        
         return head;
     }
 }
