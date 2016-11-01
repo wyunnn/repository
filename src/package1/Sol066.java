@@ -15,7 +15,7 @@ public class Sol066 {
             }
         }
         
-        if (a == 1){
+        if (a == 1){ // if 9999...
             int[] r = new int[l+1];
             r[0] = 1;
             for(int m = 1; m<l+1; m++){
