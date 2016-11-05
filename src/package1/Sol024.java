@@ -8,7 +8,7 @@ package package1;
  *     ListNode(int x) { val = x; }
  * }
  */
-public class Sol24 {
+public class Sol024 {
     public ListNode swapPairs(ListNode head) {
         if(head == null || head.next == null)   return head;
         
