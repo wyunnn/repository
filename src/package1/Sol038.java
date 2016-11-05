@@ -7,7 +7,7 @@ public class Sol038 {
         String rs;
         
         for (int i = 1; i < n; i++){
-            rs = new String();
+            rs = "";
             char a = s.charAt(0);
             int count = 1;
             
