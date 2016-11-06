@@ -17,7 +17,9 @@ public class Sol008 {
                 if(sign * output > Integer.MAX_VALUE)   return Integer.MAX_VALUE;
                 if(sign * output < Integer.MIN_VALUE)   return Integer.MIN_VALUE;
             }
-            else if(a == ' ' && sign != 0)              break;
+            else if(a == ' '){
+            	if(sign != 0)              				break;
+            }
             else							            break;
         }
         return sign * (int)output;
