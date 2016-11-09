@@ -14,8 +14,7 @@ public class Sol014 {
                 }
             }
             if (j < ind)		ind = j;
-        }
-        
+        } 
         return strs[0].substring(0, ind);
     }
 }
