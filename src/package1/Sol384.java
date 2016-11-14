@@ -6,7 +6,6 @@ public class Sol384 {
     int [] nums;
     Random r;
 
-
     public Sol384(int[] nums) {
         this.res = nums.clone();
         this.nums = nums;
