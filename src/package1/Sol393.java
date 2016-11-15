@@ -16,6 +16,6 @@ public class Sol393 {
             else if ((data[i] & 0b11111000) == 0b11110000)       num+=3;
             else    return false;
         }
-        return true;        
+        return num == 0;        
     }
 }
