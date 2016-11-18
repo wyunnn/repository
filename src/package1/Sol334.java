@@ -11,8 +11,7 @@ public class Sol334 {
             if (nums[i] <= min)             min = nums[i];
             else if(nums[i] <= secmin)      secmin = nums[i];
             else                            return true;
-        }
-        
+        }  
         return false;
     }
 }
