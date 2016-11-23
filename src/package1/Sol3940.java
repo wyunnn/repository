@@ -2,7 +2,7 @@ package package1;
 
 import java.util.*;
 
-public class Sol3940 {
+/*public class Sol3940 {
     public String decodeString(String s) {
         
         Stack<String> ss = new Stack<String>();
@@ -22,7 +22,7 @@ public class Sol3940 {
                 tmp = "";
             }
             else if(a != '[' && a != ']'){
-                tmp = tmp + a; //get the letters inside 
+                tmp = tmp + a; 
             }
             else if (a == ']'){
                 if(si.size() >0){
@@ -45,10 +45,10 @@ public class Sol3940 {
         }
         return tmp;
     }
-}
+}*/
 
 //-----Modified Version-----
-public class Solution {
+public class Sol3940 {
     public String decodeString(String s) {
         Stack<String> ss = new Stack<String>();
         Stack<Integer> si = new Stack<Integer>();
