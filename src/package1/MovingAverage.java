@@ -1,5 +1,5 @@
 package package1;
-
+//Solution346
 
 public class MovingAverage {
     int[] data;
