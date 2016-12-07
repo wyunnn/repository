@@ -22,6 +22,5 @@ public class Sol009 {
         
         if(left == right)   return true;
         else                return false;
-
     }
 }
