@@ -2,7 +2,7 @@ package package1;
 
 import java.util.*;
 
-public class Sol62 {
+public class Sol062 {
     public int uniquePaths(int m, int n) {
         int[][] sum = new int[m][n];
         Arrays.fill(sum[0], 1);
