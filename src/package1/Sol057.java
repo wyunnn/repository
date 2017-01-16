@@ -14,7 +14,6 @@ public class Sol057 {
         List<Interval> ret = new ArrayList<Interval>();
         if(intervals.size() == 0)   ret.add(newInterval);
         for(int i = 0; i < intervals.size(); i++){
-            //System.out.println(i);
             Interval cur = intervals.get(i);
             if(cur.start < newInterval.start && cur.end >= newInterval.start){
                 newInterval.start = cur.start;
