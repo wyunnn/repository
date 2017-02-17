@@ -13,7 +13,7 @@ public class Sol243 {
                 p2 = i;
             }
             if(p1 != -1 && p2 != -1){
-                res = Math.abs(p2-p1) < res ? Math.abs(p2-p1) : res;
+                res = Math.min( Math.abs(p2-p1), res);
             }
         }
         return res;
