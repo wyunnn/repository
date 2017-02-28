@@ -3,11 +3,35 @@ package package1;
 public class Sol161 {
 	
 	
-	
+    public boolean isOneEditDistance(String s, String t) {
+        
+        int i = 0, j = 0, count = 0;
+        int m = s.length(), n = t.length();
+        
+        while(i < m && j < n){
+            if(s.charAt(i) == t.charAt(j)){
+                i++;
+                j++;
+            }
+            else if(s.substring(i+1).equals(t.substring(j)) || t.substring(j+1).equals(s.substring(i)) 
+                    || s.substring(i+1).equals(t.substring(j+1))){
+                return true;
+            }
+            else{
+                return false;
+            }
+        }
+        
+        if((i == m && j == n-1) || (i == m-1 && j == n))
+            return true;
+        else
+            return false;
+        
+    }	
 	
 	
 /*  
- *  Time limit Exceeded
+ *  Time limit Exceeded (can be accepted - very slow)
  * 
  *   public boolean isOneEditDistance(String s, String t) {
         
