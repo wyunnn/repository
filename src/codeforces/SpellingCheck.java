@@ -17,7 +17,6 @@ public class MyClass {
         int idx = 0;
         boolean ex = false;
         
-        
         for (int i = 0, j = 0; i < s1.length(); i++){
             char c1 = s1.charAt(i);
             
@@ -38,8 +37,7 @@ public class MyClass {
                     start = idx;
                     end = i;
                     ex = true;      
-                }
-                
+                }              
             }
             else{ // ex = true;
                 end = -1;
