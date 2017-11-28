@@ -84,8 +84,7 @@ public class MyClass {
                             }
                         }
                         return false;
-                    }
-                    
+                    }   
                 }
                 
                 else if(g2[i][j] == '-'){ // g1 has num
